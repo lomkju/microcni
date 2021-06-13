@@ -9,4 +9,4 @@ jobs:
   docker:
    - image: jmalloc/echo-server
   steps:
-   - checkout
+   - /bin/echo-server
