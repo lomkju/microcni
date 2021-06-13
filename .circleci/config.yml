@@ -7,6 +7,6 @@ workflows:
 jobs:
  test:
   docker:
-   - image: scratch
+   - image: jmalloc/echo-server
   steps:
    - checkout
