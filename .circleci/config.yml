@@ -8,3 +8,5 @@ jobs:
  test:
   docker:
    - image: scratch
+  steps:
+   - checkout
