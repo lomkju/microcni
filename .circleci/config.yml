@@ -7,7 +7,6 @@ workflows:
 jobs:
  test:
   docker:
-   - image: jmalloc/echo-server
+   - image: busybox
   steps:
    - checkout
-   - run: /bin/echo-server
